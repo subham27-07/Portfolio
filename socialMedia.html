@@ -1,0 +1,571 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Portfolio Subham</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--From Dimitris Code Starts-->
+
+		  <!-- Basic Page Needs–– -->
+		  <meta charset="utf-8">
+		  <title>Mobility on Demand</title>
+		  <meta name="description" content="">
+		  <meta name="author" content="">
+		
+		  <!-- Mobile Specific Metas -->
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		  <!-- FONT -->
+		  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+		
+		  <!-- CSS -->
+		  <link rel="stylesheet" href="css/normalize.css">
+		  <link rel="stylesheet" href="css/skeleton.css">
+		  <link rel="stylesheet" href="css/customize.css">
+		  <script src='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js'></script>
+		  <link href='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css' rel='stylesheet' />
+		  <link rel="shortcut icon"
+			href="#">
+
+
+
+			<style>
+				#map_1,
+				#map_2,
+				#map_3,
+				#map_4 {
+				  height: 500px;
+				  padding-left: 200px;
+				  padding-right: 200px;
+				}
+				.wrap3
+				{
+				width: 1200px;
+				height: 500px;
+				
+				
+				overflow: hidden
+				}
+
+				* {
+					box-sizing: border-box;
+					}
+
+					.column {
+					float: left;
+					width: 50%;
+					padding: 5px;
+					}
+					.column1 {
+					float: left;
+					width: 33.3%;
+					padding: 5px;
+					}
+					.column2 {
+					float: left;
+					width: 100%;
+					padding: 5px;
+					}
+					.column3 {
+					float: left;
+					width: 75%;
+					padding: 5px;
+					}
+
+					/* Clearfix (clear floats) */
+					.row::after {
+					content: "";
+					clear: both;
+					display: table;
+					}
+				
+			  </style>
+
+			
+			  <!-- D3 -->
+			  <script src="https://d3js.org/d3.v4.min.js"></script>
+			
+			
+			
+			  <!-- Favicon -->
+			  
+
+
+
+		<!--From dimitri's code ends here-->
+
+
+
+
+
+
+
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong></strong></a>
+									<ul class="icons">
+										<li><a href="https://www.linkedin.com/in/subhamsah17/" class="fab fa-linkedin-in" style='font-size:27px'><span class="label"></span></a></li>
+										<li><a href="https://github.com/subham27-07" class="fab fa-github" style='font-size:27px'></a><span class="label"></span></a></li>
+									</ul>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Social Media Data Analysis Tool</h1>
+									</header>
+
+									<span class="image main"><img src="socialMedia/1.png" alt="" /></span>
+
+									<p align="justify">On social media, users generate content in various forms, including video, 
+										images, text, and geospatial data, which is often freely available and provides a huge amount of data.
+										 This data can be used for many purposes: by corporations to improve business processes, by policymakers
+										  to identify trends in public opinion, by public health officials to monitor infectious disease outbreaks,
+										   and by first responders to coordinate rescue efforts after a natural disaster.
+									</p>
+
+									<hr class="major" />
+
+									<h2> Initial Questions</h2>
+									<p align="justify">There is a plethora of freely available toolkits for performing natural language processing (NLP) and machine learning (ML) on large datasets, including those from social media sources.
+										…but you have to know how to write code to use them!
+										</p>
+									<h2>The problem</h2>
+									<p align="justify">There is lots of interest in leveraging social media data for research in social science, urban planning, epidemiology, and other fields, but most researchers lack the programming skills necessary to use existing NLP toolkits.
+
+										“I’ll get around to learning how to use these tools some day.”
+										
+										We decided to make SOMEDAEX happen.</p>
+
+									<hr class="major" />
+
+									<h2>What this application can do?</h2>
+									<p align="justify">1. Sentiment analysis and other text classification tasks<br>
+										2. Named entity recognition<br>
+										3. Geocoding of recognized named locations<br>
+										4. Topic modeling<br>
+										5. Network analysis<br>
+										6. Interactive visualization with linked data views<br>
+										</p>
+									<h2>How will it work?</h2>
+									<p align="justify">Existing Python libraries for data analysis and natural language processing
+										Transformers, SpaCy, Stanza, Flair, GeoPy, Top2Vec, NetworkX, NLTK, etc.<br>
+										Pretrained models from Huggingface, SpaCy, and StanfordNLP<br>
+										Existing JavaScript libraries for data visualization
+										D3, Vega, Vega Lite, Deck.gl, Chart.js, etc.
+									
+									
+									
+									<!--Map 3 starts here-->
+									
+									<!--Map 3 ends here-->
+									<!--map divvy-->
+
+									<hr class="major" />
+
+									<h2>Creating Proof of Conecpt</h2>
+									<h3>Goals for Proof of Conecpt</h3>
+									<p align="justify">1. Allow users to incrementally construct a data processing pipeline by using a simple question-based interface.<br>
+										2. Promote user understanding of the data analysis tasks by showing the results of each task alongside its configuration.<br>
+										3. Enable rapid prototyping and exploration by using the Streamlit framework.
+										</p>
+									<!--Bar chart Divvy starts here-->
+									
+									<div class="row">
+										
+										<video controls width="750">
+
+											<source src="socialMedia/screen-capture (1).webm"
+													type="video/webm">
+											Sorry, your browser doesn't support embedded videos.
+										</video>
+										
+
+									</div>
+
+									
+
+									<!--Top 10 stations chart ends here-->
+									<h2>Lessons learned</h2>
+									<p align="justify">1. Interface concepts seemed to work well, but no rigorous user testing was performed.<br>
+										2. Streamlit was not designed for the level of interactivity we envisioned.<br>
+										3. The app became painfully slow both as the pipeline grew in complexity and as the size of the dataset increased. 
+										</p>
+							
+									<hr class="major" />
+
+									<h2>Designing the User Interface.</h2>
+									<p align="justify">Viewing the 2019 chord graph there are a few stations that produce more trips than the other related stations. Looking at the 2020 chord graph you notice that the stations that produced a larger quantity of trips reduces and the majority of the graph looks evenly distributed all around. But, all stations lose total number of trips overall.</p>
+									<!--Chord graph starts here-->
+									<P>Wireframe</P>
+									<div class="row">
+										<p></p>
+										<div class="column3">
+										  <img src="socialMedia/figma/f1.png" alt="Snow" style="width:100%">
+										</div>
+									  </div>
+									  <br>
+									  <br>
+									  <div class="row">
+										<p></p>
+										<div class="column3">
+										  <img src="socialMedia/figma/f2.png" alt="Snow" style="width:100%">
+										</div>
+									  </div>
+									  <br>
+									  <br>
+									  <div class="row">
+										<p></p>
+										<div class="column3">
+										  <img src="socialMedia/figma/f3.png" alt="Snow" style="width:100%">
+										</div>
+									  </div>
+									  <br>
+									  <br>
+									  <div class="row">
+										<p></p>
+										<div class="column3">
+										  <img src="socialMedia/figma/f4.png" alt="Snow" style="width:100%">
+										</div>
+									  </div>
+									  <br>
+									  <br>
+									  <div class="row">
+										<p></p>
+										<div class="column3">
+										  <img src="socialMedia/figma/f5.png" alt="Snow" style="width:100%">
+										</div>
+									  </div>
+									  <br>
+									  <br>
+									  <div class="row">
+										<p></p>
+										<div class="column3">
+										  <img src="socialMedia/figma/f6.png" alt="Snow" style="width:100%">
+										</div>
+									  </div>
+									  <br>
+									  <br>
+									  <div class="row">
+										<p></p>
+										<div class="column3">
+										  <img src="socialMedia/figma/f7.png" alt="Snow" style="width:100%">
+										</div>
+									  </div>
+									  <br>
+									  <br>
+									  <div class="row">
+										<p></p>
+										<div class="column3">
+										  <img src="socialMedia/figma/f8.png" alt="Snow" style="width:100%">
+										</div>
+									  </div>
+									  <br>
+									  <br>
+									  <div class="row">
+										<p></p>
+										<div class="column3">
+										  <img src="socialMedia/figma/f9.png" alt="Snow" style="width:100%">
+										</div>
+									  </div>
+									  <br>
+									  <br>
+									  <div class="row">
+										<p></p>
+										<div class="column3">
+										  <img src="socialMedia/figma/f10.png" alt="Snow" style="width:100%">
+										</div>
+									  </div>
+									  <br>
+									  <br>
+									  <div class="row">
+										<p></p>
+										<div class="column3">
+										  <img src="socialMedia/figma/f11.png" alt="Snow" style="width:100%">
+										</div>
+									  </div>
+									  <br>
+									  <br>
+									  <div class="row">
+										<p></p>
+										<div class="column3">
+										  <img src="socialMedia/figma/f12.png" alt="Snow" style="width:100%">
+										</div>
+									  </div>
+									  <br>
+									  <br>
+									  <div class="row">
+										<p></p>
+										<div class="column3">
+										  <img src="socialMedia/figma/f13.png" alt="Snow" style="width:100%">
+										</div>
+									  </div>
+									  <br>
+									  <br>
+									  <div class="row">
+										<p></p>
+										<div class="column3">
+										  <img src="socialMedia/figma/f14.png" alt="Snow" style="width:100%">
+										</div>
+									  </div>
+									  <br>
+									  <br>
+									  <div class="row">
+										<p></p>
+										<div class="column3">
+										  <img src="socialMedia/figma/f15.png" alt="Snow" style="width:100%">
+										</div>
+									  </div>
+									  <br>
+									  <br>
+									  <div class="row">
+										<p></p>
+										<div class="column3">
+										  <img src="socialMedia/figma/f16.png" alt="Snow" style="width:100%">
+										</div>
+									  </div>
+									  <br>
+									  <br>
+									  <div class="row">
+										<p></p>
+										<div class="column3">
+										  <img src="socialMedia/figma/f17.png" alt="Snow" style="width:100%">
+										</div>
+									  </div>
+									  <br>
+									  <br>
+									  <div class="row">
+										<p></p>
+										<div class="column3">
+										  <img src="socialMedia/figma/f18.png" alt="Snow" style="width:100%">
+										</div>
+									  </div>
+									  <br>
+									  <br>
+									  <div class="row">
+										<p></p>
+										<div class="column3">
+										  <img src="socialMedia/figma/f19.png" alt="Snow" style="width:100%">
+										</div>
+									  </div>
+									  <br>
+									  <br>
+									  <div class="row">
+										<p></p>
+										<div class="column3">
+										  <img src="socialMedia/figma/f20.png" alt="Snow" style="width:100%">
+										</div>
+									  </div>
+									  <br>
+									  <br>
+									
+								
+									
+									
+
+									<!--Chord graph ends here-->
+
+								
+									 <!-- Map 4 Starts -->
+									 
+									 <!-- Map 4 ENDS -->
+
+									<hr class="major" />
+
+									<h2>Building the App</h2>
+									<p>1. The NLP toolkits we want to use are written in Python.<br>
+										2. The data visualization libraries are written in JavaScript.<br>
+										
+										3. Our solution is to build an Electron app that runs a Python background process for data processing.
+									</p>
+									<h3> What is Electron</h3>
+									<p align="justify">Electron is an open-source, cross-platform software framework that allows you to build desktop applications using web technologies (HTML, CSS, JavaScript).
+										Unlike a browser-based web application, an Electron app has access to the local file system and the ability to spawn child processes.
+									</p>
+
+									<div class="row">
+										<div class="column2">
+										  <img src="socialMedia/figma/f21.jpg" alt="Snow" style="width:100%">
+										</div>
+									  </div>
+									  <br>
+									  <br>
+									<!--Portland by days of week-->
+
+									<!--Percentage chart ends here-->
+
+									<hr class="major" />
+
+									<h2>Work in progress</h2>
+									<p align="justify">1. Backend: Data processing infrastructure and HTTP interface are in place, but concrete tasks still need to be implemented.<br>
+										2. Frontend: Tasks can be added, removed, and configured, but there are currently no mechanisms for inspecting tasks results or creating visualizations.<br>
+										3. File Management: Users can load a limited number of file types into a pipeline, but a data export has not yet been developed.<br>
+										4. Packaging: Methods of packaging the app for deployment and installation have not yet been explored.</p>
+									<hr class="major" />
+									<h4></h4>
+													<ul class="pagination">
+														
+														<li><a href="MoD.html" class="page">1</a></li>
+														<li><a href="socialMedia.html" class="page active">2</a></li>
+														<li><a href="sentimentAnalysis.html" class="page">3</a></li>
+														<li><a href="connective.html" class="page">4</a></li>
+														<li><a href="rhinoPython.html" class="page">5</a></li>
+														<li><a href="computing.html" class="page">6</a></li>
+														<li><a href="bikeSharing.html" class="page">7</a></li>
+														<li><a href="ntw.html" class="page">8</a></li>
+														<li><a href="cityExplorer.html" class="page">9</a></li>
+														<li><a href="meetup.html" class="page">10</a></li>
+														<li><a href="ArchThesis.html" class="page">11</a></li>
+														<li><a href="collegeStreet.html" class="page">12</a></li>
+														<li><a href="central_vista.html" class="page">13</a></li>
+														<li><a href="starbucks.html" class="page">14</a></li>
+														<li><a href="tinXi.html" class="page">15</a></li>
+														<li><a href="rosaAlba.html" class="page">16</a></li>
+														
+
+														
+														<li><a href="index.html" class="button">Homepage</a></li>
+													</ul>
+
+
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li><a href="cv.html">CV</a></li>
+										<!--<li><a href="generic.html">Generic</a></li>-->
+										<!--<li><a href="elements.html">Elements</a></li>-->
+										<li>
+											<span class="opener">Academic Projects</span>
+											<ul>
+												<li><a href="MoD.html">Mobility on Demand</a></li>
+												<li><a href="socialMedia.html">Social Media Data Analysis</a></li>
+												<li><a href="connective.html">Connecting Environment</a></li>
+												<li><a href="sentimentAnalysis.html">Twitter Sentiment Analysis Machine Learning Project</a></li>
+												<li><a href="rhinoPython.html">Rhino Python Library and DataArt</a></li>
+												<li><a href="computing.html">Mechanical Computing Device</a></li>
+												<li><a href="bikeSharing.html">UX Design Reseach for On Demand Bike Sharing Application</a></li>
+												<li><a href="cityExplorer.html">UX Design Research for Urban City Explorer</a></li>
+												<li><a href="ntw.html">UX design for Online Shows</a></li>
+												<li><a href="meetup.html">Events-Listing Website for Architects</a></li>
+												<li><a href="ArchThesis.html">Architecture Undergraduate Thesis-2018</a></li>
+												<li><a href="collegeStreet.html">College Street Redevelopment</a></li>
+
+											</ul>
+										</li>
+										<!--<li><a href="#">Etiam Dolore</a></li>-->
+										<!--<li><a href="#">Adipiscing</a></li>-->
+										<li>
+											<span class="opener">Professional Works</span>
+											<ul>
+												<li><a href="central_vista.html">Development of Central Vista, India - New Delhi</a></li>
+												<li><a href="starbucks.html">Design and Development of Strabucks, Kyoto, Japan</a></li>
+												<li><a href="tinXi.html">Tin Xi Bamboo Restaurant, China</a></li>
+												<li><a href="rosaAlba.html">Rosa Alba Restaurant, Tuy Hoa-Vietnam</a></li>
+											</ul>
+										</li>
+										
+									</ul>
+								</nav>
+
+							<!-- Section -->
+							<!--
+								<section>
+									<header class="major">
+										<h2>Ante interdum</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+									</div>
+									<ul class="actions">
+										<li><a href="#" class="button">More</a></li>
+									</ul>
+								</section>
+							-->
+
+							<!-- Section -->
+							<section>
+								<header class="major">
+									<h2>Get in touch</h2>
+								</header>
+								
+								<ul class="contact">
+									<li class="icon solid fa-envelope"><a href="#">ssah1@uncc.edu</a></li>
+									<li class="icon solid fa-envelope"><a href="#">subham.sah17@gmail.com</a></li>
+									<li class="icon solid fa-phone">+1 (312) 647-6372</li>
+									<li class="icon solid fa-home">9515 University Terrace Drive, Apartment-E. PIN-28262<br />
+										Charlotte, North Carolina</li>
+								</ul>
+								<hr class="major" />
+									<ul class="actions">
+										<li><a href="https://drive.google.com/file/d/13EuWhSLJ65TeSm6osXB7g_AXFSRpC5tE/view?usp=sharing" class="button icon solid fa-download">Download Subham's CV</a></li>
+									</ul>
+							</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<!--<p class="copyright">&copy; Subham. All rights reserved. </p>-->
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
