@@ -133,7 +133,7 @@
 									
 									
 
-									<span class="image main"><img src="GAN/b.JPG" alt="" /></span>
+									<span class="image main"><img src="https://sailab.diism.unisi.it/gnn/_images/intro.gif" alt="" /></span>
 
 									<h2 align="justify">
 										The goal of this project is to develope a model that learns to map from parcel geometry to building footprint geometry.</h2>
@@ -143,56 +143,38 @@
 
 									<hr class="major" />
 
-									<h2>Introduction and Related Works</h2>
-									<div class="row">
+									<h2>Transformers are GNNs on a fully connected graph</h2>
+									<!-- <div class="row">
 										<div class="column3">
 										  <img src="GAN/1.jpg" alt="Snow" style="width:100%">
 										</div>
-									</div>
+									</div> -->
 									
-									<p align="justify">Designing an architectural floor plan is the basis of the overall design of the building in most cases. There always been attempts
-
-										to improve the speed and quality of this process using emerging technologies. From the early days of using computers as draft-
-										ing tools using CAD Software up until today, Different ways are examined to use machine intelligence to develop floor plans.
-										
-										Generative Adversarial Neural Networks have been most used for this case. As the creative ability of such models enables
-										us to train it on different image references and stack layers of training on top of each other to achieve the final result. As in
-										the case study for this project which is the thesis by Stanislas Chaillou, it is using a multi-step pipeline in order to integrate all
-										the necessary steps to draw a floor plan. From the parcel to building footprint then to interior space division and for the final
-										step to furnish the spaces based on their functionality. For footsteps dataset of footprints from Boston were used which was
-										categorized into different building types. The interior space division model was trained on a dataset of over 700 annotated
-										plans different spaces were labeled using a color map. for the final step which is the furnishing model was trained to put the
-										proper furniture based on the room type and locate it according to architectural standards.</p>
-
+									<p align="justify">1. Originally designed for machine translation, but tons of state-of-the-art use cases even beyond NLP (e.g. vision transformers)</p>
+                                    <p align="justify">2. Excel at sequence-to-sequence (seq2seq) learning, and have largely replaced RNNs/LSTM for this use case</p>
+                                    <p align="justify">3. Transformers are attentional graph neural networks on a fully connected graph</p>
+                                    <p align="justify">4. Example:   Transformer on SMILES for molecular drug discovery
+                                        "SMILES expresses the structure of a given molecule in the form of an ASCII string”
+                                        Train a seq2seq auto-encoder.  Then use to generate new molecules.
+                                        </p>
 									<hr class="major" />
 
-									<h2>Work Flow</h2>
-									<p align="justify"></p>
-									<!--map divvy-->
-									<!-- Map 1 Starts -->
-									
-  									<!-- Map 1 ENDS -->
-									  <br>
-									  <br>
-									<h2>Train and Test</h2>
-									<!--map divvy-->
-									<!-- Map 1 Starts -->
+									<h2>Building footprint generation as seq2seq</h2>
+                                    <h3>String representation of geometries </h3>
+                                    <p>1. Parcel:  POLYGON ((102 14, 80 11, 37 0, 0 114, 89 127, 102 14)) </p>
+                                    <p>2. Building:  POLYGON ((94 34, 38 22, 25 85, 80 96, 94 34))</p>
 									<div class="row">
 										<div class="column">
-										  <img src="GAN/2.jpg" alt="Snow" style="width:100%">
+										  <img src="GAN/a1.png" alt="Snow" style="width:100%">
 										</div>
 										<div class="column">
-										  <img src="GAN/3.jpg" alt="Forest" style="width:100%">
+										  <img src="GAN/a2.png" alt="Forest" style="width:100%">
 										</div>
-										
 									</div>
-									<br>
-									<br>
+									
 
-									<h2></h2>
+									
 									<p align="justify"></p>
-									<!--map divvy-->
-									<!-- Map 1 Starts -->
 									
 
 									<div class="row">
@@ -272,9 +254,8 @@
 									<ul>
 										<li><a href="index.html">Homepage</a></li>
 										<li><a href="cv.html">CV</a></li>
-										<!--<li><a href="generic.html">Generic</a></li>-->
-										<!--<li><a href="elements.html">Elements</a></li>-->
-										<li>
+										
+										<!-- <li>
 											<span class="opener">Academic Projects</span>
 											<ul>
 												<li><a href="MoD.html">Mobility on Demand</a></li>
@@ -291,10 +272,9 @@
 												<li><a href="collegeStreet.html">College Street Redevelopment</a></li>
 
 											</ul>
-										</li>
-										<!--<li><a href="#">Etiam Dolore</a></li>-->
-										<!--<li><a href="#">Adipiscing</a></li>-->
-										<li>
+										</li> -->
+										
+										<!-- <li>
 											<span class="opener">Professional Works</span>
 											<ul>
 												<li><a href="central_vista.html">Development of Central Vista, India - New Delhi</a></li>
@@ -302,12 +282,13 @@
 												<li><a href="tinXi.html">Tin Xi Bamboo Restaurant, China</a></li>
 												<li><a href="rosaAlba.html">Rosa Alba Restaurant, Tuy Hoa-Vietnam</a></li>
 											</ul>
-										</li>
+										</li> -->
 										
 									</ul>
 								</nav>
 
 							<!-- Section -->
+
 							<!--
 								<section>
 									<header class="major">
@@ -341,10 +322,10 @@
 								
 								<ul class="contact">
 									<li class="icon solid fa-envelope"><a href="#">ssah1@uncc.edu</a></li>
-									<li class="icon solid fa-envelope"><a href="#">subham.sah17@gmail.com</a></li>
+									<!-- <li class="icon solid fa-envelope"><a href="#">subham.sah17@gmail.com</a></li> -->
 									<li class="icon solid fa-phone">+1 (312) 647-6372</li>
-									<li class="icon solid fa-home">9515 University Terrace Drive, Apartment-E. 28262<br />
-										Charlotte, North Carolina</li>
+									<!-- <li class="icon solid fa-home">9515 University Terrace Drive, Apartment-E. 28262<br />
+										Charlotte, North Carolina</li> -->
 								</ul>
 								<hr class="major" />
 									<ul class="actions">
