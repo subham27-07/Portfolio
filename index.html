@@ -8,6 +8,56 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<style>
 			
+		.blink {
+		animation: blink 1s steps(1, end) infinite;
+		
+		}
+
+		@keyframes blink {
+		0% {
+			opacity: 1;
+		}
+		thick {
+		font-weight: bold;
+		}
+
+		50% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+			color: blue;
+		}
+		}
+		
+		.animate-charcter
+		{
+		text-transform: uppercase;
+		background-image: linear-gradient(
+			-225deg,
+			#231557 0%,
+			#44107a 29%,
+			#ff1361 67%,
+			#fff800 100%
+		);
+		background-size: auto auto;
+		background-clip: border-box;
+		background-size: 200% auto;
+		color: #fff;
+		background-clip: text;
+		text-fill-color: transparent;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: textclip 2s linear infinite;
+		display: inline-block;
+			font-size: 60px;
+		}
+
+		@keyframes textclip {
+		to {
+			background-position: 200% center;
+		}
+		}
 		</style>
 	</head>
 	<body class="is-preload">
@@ -32,7 +82,8 @@
 								<section id="banner">
 									<div class="content">
 										<header>
-											<h1>Hi, I am Subham</h1>
+											<!-- <h1>Hi, I am Subham</h1> -->
+											<h3 class="animate-charcter">Hi, I am Subham</h3>
 											<p></p>
 										</header>
 										<p style="text-align:justify">Hi, I'm Subham! I am a Computational Designer with a background in architecture.
@@ -86,7 +137,7 @@
 											</ul>
 										</article>
 										
-										<!--
+										
 										<article>
 											<a href="GAN.html" class="image"><img src="GAN/floor_plan.jpeg" alt="" /></a>
 											<h3>GAN Floor Plan</h3>
@@ -95,7 +146,7 @@
 												<li><a href="GAN.html" class="button">More</a></li>
 											</ul>
 										</article>
-										-->
+										
 										<article>
 											<a href="sentimentAnalysis.html" class="image"><img src="https://www.surveysensum.com/wp-content/uploads/2020/02/SENTIMENT-09-1.png" alt="" /></a>
 											<h3>Twitter Data Sentiment Analysis</h3>

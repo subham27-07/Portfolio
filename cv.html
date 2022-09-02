@@ -10,6 +10,87 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			.blink {
+		animation: blink 1s steps(1, end) infinite;
+		
+		}
+
+		@keyframes blink {
+		0% {
+			opacity: 1;
+		}
+		thick {
+		font-weight: bold;
+		}
+
+		50% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+			color: blue;
+		}
+		}
+		
+		.animate-charcter
+		{
+		text-transform: uppercase;
+		background-image: linear-gradient(
+			-225deg,
+			#231557 0%,
+			#44107a 29%,
+			#ff1361 67%,
+			#fff800 100%
+		);
+		background-size: auto auto;
+		background-clip: border-box;
+		background-size: 200% auto;
+		color: #fff;
+		background-clip: text;
+		text-fill-color: transparent;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: textclip 2s linear infinite;
+		display: inline-block;
+			font-size: 30px;
+		}
+
+		@keyframes textclip {
+		to {
+			background-position: 200% center;
+		}
+		}
+
+		.animate-charcter1
+		{
+		text-transform: uppercase;
+		background-image: linear-gradient(
+			-225deg,
+			#231557 0%,
+			#44107a 29%,
+			#270a14 67%,
+			#fff800 100%
+		);
+		background-size: auto auto;
+		background-clip: border-box;
+		background-size: 200% auto;
+		color: #fff;
+		background-clip: text;
+		text-fill-color: transparent;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: textclip 2s linear infinite;
+		display: inline-block;
+			font-size: 70px;
+		}
+
+		@keyframes textclip {
+		to {
+			background-position: 200% center;
+		}
+		}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -32,14 +113,14 @@
 							<!-- Content -->
 								<section>
 									<header class="main">
-										<h1>CV</h1>
+										<h1 class="animate-charcter1">CV</h1>
 									</header>
 
 									<span class="image main"><img src="" alt="" /></span> <!--put any image if required here-->
 
-									<h2>Education</h2>
+									<h2 >Education</h2>
 
-									<h3>Master of Science in Architecture | Master of Science in Information Technology 
+									<h3 class="animate-charcter">Master of Science in Architecture | Master of Science in Information Technology 
 										<h3>University of North Carolina Charlotte- Expected Graduation 2022</h3>
 										<p>Course Work- Mobility on Demand Systems, Connective Environment, Network Based Application Development,Human Computer Interaction,Applied Machine Learning, Developing a pipeline for exploratory Data Analysis,
 											Developing Rhino-python Library for data based visualization.</p>
@@ -77,7 +158,7 @@
 
 									<hr class="major" />
 
-									<h2>TECHNICAL SKILLS</h2>
+									<h2 class="animate-charcter">TECHNICAL SKILLS</h2>
 									<h3>Design:</h3>
 									<p>Adobe Creative Suite | Sketch | Adobe XD | FIGMA | RHINO-Python | Grasshopper | Revit | SketchUp | AutoCAD</p>
 									<h3>Languages:</h3>
@@ -93,7 +174,15 @@
 
 									<hr class="major" />
 
-									<h2>Experience</h2>
+									<h2 class="animate-charcter">Experience</h2>
+
+									<h3>Computational Design Intern</h3>
+									<p style="text-align:justify">Worked on a Machine Learning Model using Graph Neural Network (GNN) that learns from Urban Parcel
+										geometry, predicts place types(for e.g- Residential, Commercial, Industrial, etc.), and also predicts building
+										footprint geometry.</p>
+
+									<p style="text-align:justify">Worked on Machine Learning algorithm using Graph Neural Network(GNN) to capture Growth/Decline of
+										population, income, and household for a given region over a period of time</p>
 									
 									<h3>Research Assistant at DArts, University of North Carolina, Charlotte, January 2022-Present</h3>
 									<p> Working on the Airpurification system with the help of Microcontrollers(RaspberryPi) and Machine-Learning</p>
@@ -149,7 +238,7 @@
 
 									<hr class="major" />
 									<ul class="actions">
-										<li><a href="https://drive.google.com/file/d/1FpnK2x1VNUJl4dNeW4Z66WZhKDdvS1VC/view?usp=sharing" class="button icon solid fa-download">Download Subham's CV</a></li>
+										<!-- <li><a href="https://drive.google.com/file/d/1FpnK2x1VNUJl4dNeW4Z66WZhKDdvS1VC/view?usp=sharing" class="button icon solid fa-download">Download Subham's CV</a></li> -->
 									</ul>
 
 									<h2></h2>
@@ -258,7 +347,7 @@
 								</ul>
 								<hr class="major" />
 									<ul class="actions">
-										<li><a href="https://drive.google.com/file/d/1FpnK2x1VNUJl4dNeW4Z66WZhKDdvS1VC/view?usp=sharing" class="button icon solid fa-download">Download Subham's CV</a></li>
+										<!-- <li><a href="https://drive.google.com/file/d/1FpnK2x1VNUJl4dNeW4Z66WZhKDdvS1VC/view?usp=sharing" class="button icon solid fa-download">Download Subham's CV</a></li> -->
 									</ul>
 							</section>
 
