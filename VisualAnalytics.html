@@ -10,7 +10,7 @@
 
 		  <!-- Basic Page Needs–– -->
 		  <meta charset="utf-8">
-		  <title>Connective Environment</title>
+		  <title>Graph Neural Network</title>
 		  <meta name="description" content="">
 		  <meta name="author" content="">
 		
@@ -126,102 +126,64 @@
 							<!-- Content -->
 								<section>
 									<header class="main">
-										<h1>Generative Adversarial Neural Networks</h1>
+										<h1>VisualAnalytics Dashboard</h1>
+                                        
+                                        <h2>Analyzing the City of Charlotte's "Service Requests 311" Dataset and US Census Demographic Data for Mecklenburg County</h2>
+                                        <h3>This project was developed as a part of Visual Analytics course-DSBA:5122</h3>
 									</header>
 									
 									
 
-									<span class="image main"><img src="GAN/b.JPG" alt="" /></span>
+									<span class="image main"><img src="https://www.columbus.gov/uploadedImages/Columbus/Departments/Neighborhoods/311/311_banner_Serv_Req.png" alt="" /></span>
 
-									<p align="justify">
-										The goal of this project is to generate floor plans based on the given properties. Architects spend most of their time figuring
-										out the optimum circulation and the way spaces need to be laid out. Having a tool which has the ability to generate such
-										floor plans would asset architect in order to make design decisions faster and speed the overall process of developing design
-										documents.</p>
+									<h2 align="justify">
+										Problem Domain</h2>
 
-										 
-									
-
+                                    <p align="justify">There has been significant interest in recent years in issues surrounding equitable policing. However, considerably less attention has been paid to the equitable distribution of other local government services, such as sidewalk improvements or garbage collection.<br>
+                                        This dashboard is intended to help local policymakers analyze the requests to Charlotte’s 311 service in conjunction with demographic data for Mecklenburg County.
+                                        The goal is to enable them to discover inconsistencies in how city services are requested based on the population, ethnicity, and other characteristics of the neighbourhood from where the service requests are made.</p>
+                                    
+                                    <h3>Service Requests 311 dataset</h3>
+                                    <p>Source: City of Charlotte
+                                        https://data.charlottenc.gov/datasets/charlotte::service-requests-311</p>
+                                    <h3>Demographic data for Mecklenburg County</h3>
+                                    <p>Source: US Census Bureau
+                                        https://data.census.gov/</p>
+                            
 									<hr class="major" />
 
-									<h2>Introduction and Related Works</h2>
+									<h2>Define Data and Tasks</h2>
+                                    
+                                    
+                                    
 									<div class="row">
-										<div class="column3">
-										  <img src="GAN/1.jpg" alt="Snow" style="width:100%">
-										</div>
-									</div>
-									
-									<p align="justify">Designing an architectural floor plan is the basis of the overall design of the building in most cases. There always been attempts
-
-										to improve the speed and quality of this process using emerging technologies. From the early days of using computers as draft-
-										ing tools using CAD Software up until today, Different ways are examined to use machine intelligence to develop floor plans.
-										
-										Generative Adversarial Neural Networks have been most used for this case. As the creative ability of such models enables
-										us to train it on different image references and stack layers of training on top of each other to achieve the final result. As in
-										the case study for this project which is the thesis by Stanislas Chaillou, it is using a multi-step pipeline in order to integrate all
-										the necessary steps to draw a floor plan. From the parcel to building footprint then to interior space division and for the final
-										step to furnish the spaces based on their functionality. For footsteps dataset of footprints from Boston were used which was
-										categorized into different building types. The interior space division model was trained on a dataset of over 700 annotated
-										plans different spaces were labeled using a color map. for the final step which is the furnishing model was trained to put the
-										proper furniture based on the room type and locate it according to architectural standards.</p>
-
-									<hr class="major" />
-
-									<h2>Work Flow</h2>
-									<p align="justify"></p>
-									<!--map divvy-->
-									<!-- Map 1 Starts -->
-									
-  									<!-- Map 1 ENDS -->
-									  <br>
-									  <br>
-									<h2>Train and Test</h2>
-									<!--map divvy-->
-									<!-- Map 1 Starts -->
-									<div class="row">
-										<div class="column">
-										  <img src="GAN/2.jpg" alt="Snow" style="width:100%">
-										</div>
-										<div class="column">
-										  <img src="GAN/3.jpg" alt="Forest" style="width:100%">
+										<div class="column2">
+										  <img src="VA/3.svg" alt="Snow" style="width:100%">
 										</div>
 										
 									</div>
-									<br>
-									<br>
 
-									<h2></h2>
-									<p align="justify"></p>
-									<!--map divvy-->
-									<!-- Map 1 Starts -->
-									
+                                    <iframe src="https://subham27-07.github.io/DSBA-311-Calls/index.html" width="100%" height="900" frameborder="0"></iframe>
+                                    <br>
+                                    <br>
 
-									<div class="row">
-										<div class="column2">
-										  <img src="GAN/4.jpg" alt="Snow" style="width:100%">
-										</div>
-										<div class="column2">
-											<img src="GAN/5.jpg" alt="Snow" style="width:100%">
-										  </div>
-									</div>
+									<h2>Service Requests + Demographics</h2>
+                                    <p>Now we can ask questions about the relationship between the number and type of service requests from each tract and the number and type of people living there:</p>
+                                    <p>1.How many service requests are filed per person for each tract in Mecklenburg County in an average year?</p>
+                                    <p>2. What types of service requests are more likely to be submitted in low-income tracts than in high-income ones?</p>
+                                    <p>3. Are certain types of services requested more often in tracts with lower rates of homeownership?</p>
+                                    <p>4. Does the average number of people per household in a neighborhood affect the types of service requests likely to be submitted from that neighborhood?</p>
+                                  
+                                
 
 									
 									
-									
-									
-									
-									
-									<!--Portland top 10 stations affected-->
 
 									
-									  
-									<!--Top 10 ends here-->
-
 									
-									<hr class="major" />
-
-									<h2></h2>
-									<p align="justify"></p>
+									
+									
+									
 
 									<hr class="major" />
 									<h4></h4>
@@ -307,6 +269,7 @@
 								</nav>
 
 							<!-- Section -->
+
 							<!--
 								<section>
 									<header class="major">
@@ -340,9 +303,10 @@
 								
 								<ul class="contact">
 									<li class="icon solid fa-envelope"><a href="#">ssah1@uncc.edu</a></li>
-									
+									<!-- <li class="icon solid fa-envelope"><a href="#">subham.sah17@gmail.com</a></li> -->
 									<li class="icon solid fa-phone">+1 (312) 647-6372</li>
-									
+									<!-- <li class="icon solid fa-home">9515 University Terrace Drive, Apartment-E. 28262<br />
+										Charlotte, North Carolina</li> -->
 								</ul>
 								<hr class="major" />
 									<ul class="actions">
