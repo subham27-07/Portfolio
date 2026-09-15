@@ -12,10 +12,29 @@
 
 body {
   padding-top: var(--header-height);
+  background: var(--bg) !important;
 }
 
-#header {
+#header,
+#sidebar,
+#sidebar .toggle {
   display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+#wrapper {
+  display: block !important;
+  min-height: 0 !important;
+}
+
+#main {
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+#main > .inner {
+  margin: 0 auto;
 }
 
 .site-header {

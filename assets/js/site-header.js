@@ -45,4 +45,10 @@
 
   bind(header);
   currentPage(header.querySelector("#site-nav"));
+
+  ["#sidebar", "#header"].forEach(function (selector) {
+    document.querySelectorAll(selector).forEach(function (el) {
+      el.remove();
+    });
+  });
 })();
